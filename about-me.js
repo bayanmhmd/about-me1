@@ -68,7 +68,7 @@ else if(a == 'no'){
   alert(' i would like to live in USA');
 }
 
-
+////////////////////// 6 question /////////////////
 for (i=0 ; i<4 ;i++ ){
   var pray = prompt (" guess how many time i pray ?");
   if (pray>5 ){
