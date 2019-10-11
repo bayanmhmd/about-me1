@@ -1,0 +1,25 @@
+body {
+    background-color: blueviolet;
+    color: black;
+ }
+ h1
+ {
+    background-color:gray;
+    color: black;
+ }
+ ol{
+    background-color: lightsalmon;
+    color: royalblue ;
+ }
+ h2 {
+ background-color: goldenrod;
+ color: olivedrab;
+ }
+ ul{
+    background-color:papayawhip;
+    color:black;
+ }
+ p {
+    background-color: silver;
+    color: rgba(34, 33, 33, 0.356)56);
+ }
