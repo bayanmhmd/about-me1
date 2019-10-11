@@ -1,4 +1,4 @@
-var mark = 0;
+  var mark = 0;
 var name = prompt('what is your name?');
 name =name.toLowerCase();
      console.log("name" ,name);
@@ -69,24 +69,27 @@ else if(a == 'no'){
 }
 
 
-
-var pray =prompt ("how many times did i pray yestrday?")
-for (var i=0; i< 1; i++)
-{
-    if ( pray<5){
-        alert ("too low ")
-    }
-    else if (pray>5){
-        alert("too high")
-    }
-    else{ 
-        alert("correct")
-        mark = mark + 1;
+for (i=0 ; i<4 ;i++ ){
+  var pray = prompt (" guess how many time i pray ?");
+  if (pray>5 ){
+     alert ("too high");
+  } else if (pray<5){
+     alert ("too low");
+  }else if (pray==5){
+     alert ("correct answer ")
+     mark=mark +1
+     break;
+  }
+  if (i==3){
+     alert ("I pray 5 times daily");
+  }
 }
-}
 
 
-/////////////////////////////////////////// 7 questions /////////////////////
+
+
+
+// /////////////////////////////////////////// 7 questions /////////////////////
 
 var  child =  ['one', 'two', 'three', 'four','five','six']
  var childhood= prompt('How many child i want to have in future?  Use letters');
@@ -119,4 +122,3 @@ for(var i = 0; i < child.length; i++)
 
    alert( 'mark' +mark);
    }
-  
