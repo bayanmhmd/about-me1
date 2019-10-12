@@ -1,9 +1,9 @@
 
-  var mark = 0;
+var mark = 0;
 var name = prompt('what is your name?');
 name =name.toLowerCase();
-     console.log("name" ,name);
-alert('Welcome  '    +      name);
+console.log("name" ,name);
+alert('Welcome  '    + name);
         
 var answer = prompt('Do i love mansaf?');
  answer =answer.toLowerCase();
@@ -22,9 +22,7 @@ var ans = prompt('Do i read books?');
 console.log("ans",ans);
 if(ans == 'yes'){
   alert('Great , i do');
-  mark =mark +1;
-
-   
+  mark =mark +1; 
 }    
 else if(ans == 'no'){
   alert('I like to keep have a knowladge ');
@@ -42,10 +40,8 @@ else if(answ == 'no'){
   alert('oooo i dont want to  be fat  - __ -');
 }       else{
   alert('i like walk');
+}
 
-
-
-////////////////////// 6 question /////////////////
 for (i=0 ; i<4 ;i++ ){
   var pray = prompt (" guess how many time i pray ?");
   if (pray>5 ){
@@ -61,11 +57,6 @@ for (i=0 ; i<4 ;i++ ){
      alert ("I pray 5 times daily");
   }
 }
-
-
-
-
-
 // /////////////////////////////////////////// 7 questions /////////////////////
 
 var  child =  ['one', 'two', 'three', 'four','five','six']
@@ -100,4 +91,4 @@ for(var i = 0; i < child.length; i++)
    alert( 'mark' +mark);
    }
 
-}
+
